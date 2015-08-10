@@ -1,0 +1,65 @@
+inherited Form2_SmXhdpiPh: TForm2_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  Padding.Left = 10.000000000000000000
+  Padding.Top = 10.000000000000000000
+  Padding.Right = 10.000000000000000000
+  Padding.Bottom = 10.000000000000000000
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Align = Top
+    StyledSettings = [Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Candara'
+    Text = 'Tuliskan sesuatu,'
+  end
+  inherited Memo1: TMemo
+    Align = Client
+    Size.Width = 230.000000000000000000
+    Size.Height = 219.000000000000000000
+    TextSettings.Font.Family = 'Candara'
+    TextSettings.WordWrap = True
+    StyledSettings = [Size, Style, FontColor]
+  end
+  inherited Edit1: TEdit
+    Align = Top
+    TextSettings.Font.Family = 'Candara'
+    Position.X = 10.000000000000000000
+    Position.Y = 33.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Size, Style, FontColor]
+    inherited ClearEditButton1: TClearEditButton
+      Size.Width = 32.000000000000000000
+      Size.Height = 30.000000000000000000
+    end
+  end
+  inherited Button1: TButton
+    Align = Top
+    StyledSettings = [Size, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 65.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 37.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Kirim'
+    TextSettings.Font.Family = 'Candara'
+  end
+  inherited Button2: TButton
+    Align = Bottom
+    StyledSettings = [Size, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 321.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Close'
+    TextSettings.Font.Family = 'Candara'
+    OnClick = Button2Click
+  end
+end

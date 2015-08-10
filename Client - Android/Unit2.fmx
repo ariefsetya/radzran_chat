@@ -1,0 +1,57 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 136.000000000000000000
+    Position.Y = 64.000000000000000000
+    Text = 'Label1'
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    Position.X = 16.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 16.000000000000000000
+    Position.Y = 344.000000000000000000
+    object ClearEditButton1: TClearEditButton
+      CanFocus = False
+      Cursor = crArrow
+      Size.Width = 28.000000000000000000
+      Size.Height = 18.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+  object Button1: TButton
+    Position.X = 112.000000000000000000
+    Position.Y = 304.000000000000000000
+    TabOrder = 4
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 136
+    Top = 96
+  end
+  object Button2: TButton
+    Position.X = 88.000000000000000000
+    Position.Y = 264.000000000000000000
+    TabOrder = 8
+    Text = 'Button2'
+  end
+end

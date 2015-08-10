@@ -1,0 +1,110 @@
+inherited Form1_SmXhdpiPh: TForm1_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  Padding.Left = 10.000000000000000000
+  Padding.Top = 10.000000000000000000
+  Padding.Right = 10.000000000000000000
+  Padding.Bottom = 10.000000000000000000
+  Quality = HighQuality
+  DesignerMasterStyle = 0
+  inherited Edit1: TEdit
+    TextSettings.Font.Family = 'Candara'
+    Position.X = 10.000000000000000000
+    Position.Y = 87.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 32.000000000000000000
+    StyledSettings = [Size, Style, FontColor]
+    inherited ClearEditButton1: TClearEditButton
+      Size.Width = 32.000000000000000000
+      Size.Height = 30.000000000000000000
+    end
+  end
+  inherited Label1: TLabel
+    Align = Top
+    StyledSettings = [Size, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 119.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Candara'
+    Text = 'Password'
+  end
+  inherited Button1: TButton
+    Align = Bottom
+    StyledSettings = [Size, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 321.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Exit'
+    TextSettings.Font.Family = 'Candara'
+  end
+  inherited Panel1: TPanel
+    Align = MostTop
+    Position.X = 10.000000000000000000
+    Position.Y = 33.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 31.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Label2: TLabel
+    Align = MostTop
+    StyledSettings = [Size, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Candara'
+    TextSettings.HorzAlign = Center
+    Text = 'As Chat Rad Zran'
+  end
+  inherited Button2: TButton
+    Align = Top
+    StyledSettings = [Size, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 174.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Check In >'
+    TextSettings.Font.Family = 'Candara'
+  end
+  inherited Label3: TLabel
+    StyledSettings = [Size, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 230.000000000000000000
+    TextSettings.Font.Family = 'Candara'
+    Text = 'Username'
+  end
+  inherited Edit2: TEdit
+    Password = True
+    TextSettings.Font.Family = 'Candara'
+    Position.X = 10.000000000000000000
+    Position.Y = 142.000000000000000000
+    Size.Width = 230.000000000000000000
+    StyledSettings = [Size, Style, FontColor]
+  end
+  inherited Button3: TButton
+    Align = Top
+    StyledSettings = [Size, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 218.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Register >'
+    TextSettings.Font.Family = 'Candara'
+  end
+  inherited PMasuk: TIdHTTP
+    Left = 32
+    Top = 288
+  end
+  inherited PChat: TIdHTTP
+    Left = 72
+    Top = 288
+  end
+end
